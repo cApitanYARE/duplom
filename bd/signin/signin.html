@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="sign_in_window" id="SignInWindow">
+        <div class="sign_in_body" id="SignInWindowBody">
+            <div class="sign_in_content">
+                <p class="closeButton" id="closeButton2">X</p>
+                <div class="sign_in_area">
+<form id="registrationForm" action="/bd/signin" method="POST">
+                    <div class="sign_in_line">
+                        <p>Реєстрація</p>
+                    </div>
+                    <div class="login">
+                        <p class="email"><label for="email">Пошта:</label></p>
+                        <p><input type="email" placeholder="@email.com" class="email_input" name="email" id="email" required></p>
+                    </div>
+                    <div class="pas">
+                        <p class="password"><label for="password">Пароль:</label></p>
+                        <div class="pas_body">
+                            <p><input type="password" placeholder="Напишіть пароль..." id="password" name="password" required></p>
+                            <p class="show">Показати<input type="checkbox" id="showPasswordCheckbox1"></p>
+                        </div>
+                    </div>
+                    <div class="pas">
+                        <p class="password"><label for="confirmPassword">Повторіть пароль:</label></p>
+                        <div class="pas_body">
+                            <p><input type="password" placeholder="Напишіть пароль..." id="confirmPassword" name="confirmPassword" required></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                    <div class="sign_in_but">
+                        <div class="sign_in_but_body">
+                            <button type="submit"><p>Зареєструватися</p></button>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</form>
+    <script src="/bd/signin/script.js"></script>
+</body>
+</html>

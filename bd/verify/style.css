@@ -1,0 +1,472 @@
+#verificationCode{
+    width: 100px;
+}
+
+.confirm_line{
+    padding-left: 40px;
+}
+
+.button_agree{
+   text-align: center;
+}
+
+p{
+    margin: 0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/photo/bd/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.button_body{
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+   
+}
+
+
+button{
+    margin-left: 0;
+    background-color: #EF5050;
+    padding: 5px 10px;
+    border: 3px #EF5050 solid;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover{
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #EF5050;
+
+    box-shadow: 0 2px 5px rgb(54, 54, 54);
+}
+
+.button p:active {
+    box-shadow: 0 2px 5px rgb(54, 54, 54);
+    
+  }
+
+
+.button{
+color: white;
+background-color: #EF5050;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 75px;
+padding: 10px 20px;
+border-radius: 10%;
+cursor: pointer;
+margin: 20px;
+}
+
+.button:hover{
+    background-color: #f12222;
+ 
+}
+
+/*model*/
+
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий фон */
+    display: none; /* Початково ховаємо */
+}
+
+.modal_body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: none; /* Початково ховаємо */
+    z-index: 999; /* Зверху */
+}
+
+.modal_content {
+
+}
+
+.closeButton{
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #EF5050;
+    border-radius: 5px;
+}
+
+.closeButton:hover{
+    background-color: #f12222;
+    cursor: pointer;
+}
+
+/*ticket_menu*/
+
+.ticket_menu{
+    display: flex;
+    justify-content: center;
+    margin : 15px 0 10px 0;
+
+}
+
+.ticket_body{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 400px;
+}
+
+.ticket_but{
+    color: white;
+    background-color: #EF5050;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+    border: 3px #EF5050 solid;
+}
+
+.ticket_but:hover{
+    background-color: white;
+    color: #EF5050;
+    
+    cursor: pointer;
+}
+
+/*num_body*/
+
+.num_body{
+ display: flex;
+ justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 700px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.row p{
+    background-color: #EF5050;
+    padding: 5px 10px;
+    border: 3px #EF5050 solid;
+    border-radius: 5px;
+}
+
+.row p:hover{
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #EF5050;
+}
+
+.row_d{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 700px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.row_d p{
+    background-color: #EF5050;
+    padding: 5px 10px;
+    border: 3px #EF5050 solid;
+    border-radius: 5px;
+}
+
+.row_d p:hover{
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #EF5050;
+}
+
+/*day_body*/
+
+.day_body{
+    margin-bottom: 5px;
+    display: flex;
+ justify-content: center;
+
+}
+
+.take_hour{
+    margin-left: 10px;
+}
+
+.take_day{
+    margin-left: 10px;
+}
+
+/*LOG_IN*/
+
+.log_in_window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий фон */
+
+}
+
+.log_in_window_body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+    z-index: 999; /* Зверху */
+}
+
+.log_in_content{
+
+}
+
+.log_in{
+    color: white;
+    background-color: #EF5050;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+}
+
+.log_in:hover{
+    background-color: #f12222;
+}
+
+.log_in_area{
+color: #3a3a3a;
+margin: 10px 0 10px 0;
+}
+
+/* Стилі для мітки */
+label {
+    display: inline-block;
+  /* Задайте ширину мітки за потребою */
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Додаткові стилі, які забезпечують розмір поля вводу */
+input[type="password"],
+input[type="text"] {
+    width: 180px; /* Ширина поля вводу */
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+/* Фокус на полі вводу */
+input[type="password"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 5px red;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+}
+
+/* Невірне значення поля вводу */
+input[type="password"].invalid,
+input[type="text"].invalid {
+    border-color: red;
+    margin: 0 auto;
+}
+
+
+/* Додаткові стилі, які забезпечують розмір поля вводу */
+input[type="email"],
+input[type="text"] {
+   /* Ширина поля вводу */
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+/* Фокус на полі вводу */
+input[type="email"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 5px red;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+}
+
+/* Невірне значення поля вводу */
+input[type="email"].invalid,
+input[type="text"].invalid {
+    border-color: red;
+    margin: 0 auto;
+}
+.pas{
+margin: 15px 0 0 0;
+padding-left: 40px;
+}
+
+.show{
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.pas_body{
+    display: flex;
+    margin:20px 0 0 0 ;
+
+}
+
+.log_in_but{
+display: flex;
+justify-content: center;
+margin-top: 45px;
+}
+
+.log_in_but_body{
+}
+
+
+
+  
+
+
+
+
+
+.email{
+    margin-bottom: 15px;
+   
+}
+
+.email_input{
+    width: 250px;
+}
+
+.password{
+    margin-bottom: 15px;
+}
+
+.login{
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+.sign_in_but{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.sign_in_butBody{
+
+}
+
+/*can_but*/
+
+.can_but{
+    color: white;
+    background-color: #EF5050;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+}
+
+.can_but:hover{
+    background-color: #f12222;
+}
+
+.can_but_window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий фон */
+    display: none; /* Початково ховаємо */
+}
+
+.can_but_body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: none; /* Початково ховаємо */
+    z-index: 999; /* Зверху */
+}
+
+.can_but_content{
+
+}
+
+.login_line{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.sign_in_line{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bd/login/style.css">
+    <title>Log In</title>
+</head>
+<body>
+    <form id="loginForm" action="/login" method="POST">
+    <div class="log_in_window" id="logInWindow">
+        <div class="log_in_window_body" id="logInWindowBody">
+            <div class="log_in_content">
+                <p class="closeButton" id="closeButton1">X</p>
+                <div class="log_in_area">
+                    <div class="login_line">
+                        <p>Вхід</p>
+                    </div>
+                <div class="login">
+                    <p class="email"><label for="email"></label>Пошта:</labal></p>
+                    <p><input type="email" placeholder="@email.com" class="email_input" name="loginEmail" id="loginEmail" required></p>
+                </div>
+                <div class="pas">
+                    <p><label for="password">Пароль:</label></p>
+                    <div class="pas_body">
+                        <p><input type="password"  placeholder="Напишіть пароль..." id="loginPassword" name="loginPassword" required></p>
+                        <p class="show">Показати<input type="checkbox" id="showPasswordCheckbox"></p>
+                    </div>
+                </div>
+            </div>
+                <div class="log_in_but">
+                    <div class="log_in_but_body">
+                        <button type="submit"><p>Увійти</p></button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </form>
+    <script src="/bd/login/script.js"></script>
+
+</body>
+</html>

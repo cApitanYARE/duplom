@@ -1,0 +1,222 @@
+
+.booked{
+    opacity: 0.5;
+}
+
+
+p{
+    margin: 0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/photo/bd/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.button_body{
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+   
+}
+
+
+
+.button{
+color: white;
+background-color: #EF5050;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 75px;
+padding: 10px 20px;
+border-radius: 10%;
+cursor: pointer;
+margin: 20px;
+}
+
+.button:hover{
+    background-color: #f12222;
+ 
+}
+
+/*model*/
+
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий фон */
+
+}
+
+.modal_body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+
+    z-index: 999; /* Зверху */
+}
+
+.modal_content {
+}
+
+.closeButton{
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #EF5050;
+    border-radius: 5px;
+}
+
+.closeButton:hover{
+    background-color: #f12222;
+    cursor: pointer;
+}
+
+/*ticket_menu*/
+
+.ticket_menu{
+    display: flex;
+    justify-content: center;
+    margin : 15px 0 10px 0;
+
+}
+
+.ticket_body{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 400px;
+}
+
+.ticket_but{
+    color: white;
+    background-color: #EF5050;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+    border: 3px #EF5050 solid;
+}
+
+.ticket_but:hover{
+    background-color: white;
+    color: #EF5050;
+    
+    cursor: pointer;
+}
+
+/*num_body*/
+
+.num_body{
+ display: flex;
+ justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+/*.row p{
+    background-color: #EF5050;
+    padding: 5px 10px;
+    border: 3px #EF5050 solid;
+    border-radius: 5px;
+}*/
+
+button{
+    color: white;
+    background-color: #EF5050;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: #EF5050 solid 3px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #EF5050;
+    border: #EF5050 solid 3px;
+}
+
+.row p:hover{
+
+}
+
+.row_d{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    min-width: 700px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.row_d p{
+    background-color: #EF5050;
+    padding: 5px 10px;
+    border: 3px #EF5050 solid;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.row_d p:hover{
+    color: #EF5050;
+    background-color: white;
+}
+
+.active p {
+    color: #EF5050; /* колір тексту */
+    background-color: white; /* фон */
+}
+
+/*day_body*/
+
+.day_body{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.take_hour{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.take_day{
+    margin-left: 10px;
+}
+

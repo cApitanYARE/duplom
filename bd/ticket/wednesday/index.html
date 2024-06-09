@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/toji.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="button" id="button1">
+        <p>Get Ticket</p>
+    </div>
+
+
+    <div class="modal_overlay" id="modalOverlay">
+        <div class="modal_body" id="modalBody">
+            <div class="modal_content">
+                <div class="can_but_window" id="can_but_window">
+                    <div class="can_but_body" id="can_but_body">
+                        <div class="can_but_content">
+                            <p class="closeButton" id="closeButton3">X</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="take_day">
+                    <p style="color: #1D1D1D;">Which day do you need?:</p>
+                </div>
+                <div class="day_body">
+                    <div class="row_d">
+                        <a href="/bd/ticket/monday"><p data-day="Monday">Monday</p></a>
+                        <a href="/bd/ticket/tuesday" ><p data-day="Tuesday">Tuesday</p></a>
+                        <a href="/bd/ticket/wednesday" class="active"><p data-day="Wednesday">Wednesday</p></a>
+                        <a href="/bd/ticket/thursday"><p data-day="Thursday">Thursday</p></a>
+                        <a href="/bd/ticket/friday"><p data-day="Friday">Friday</p></a>
+                    </div>
+                </div>
+
+                <div class="take_hour">
+                    <p style="color: #1D1D1D;">Which hour do you need?:</p>
+                </div>
+                <div class="num_body">
+                    <div class="row">
+                        <button id="time31"><p>9:00</p></button>
+                        <button id="time32"><p>10:00</p></button>
+                        <button id="time33"><p>11:00</p></button>
+                        <button id="time34"><p>12:00</p></button>
+                        <button id="time35"><p>13:00</p></button>
+                        <button id="time36"><p>14:00</p></button>
+                    </div>
+                </div>
+                <div class="num_body">
+                    <div class="row">
+                        <button id="time37"><p>15:00</p></button>
+                        <button id="time38"><p>16:00</p></button>
+                        <button id="time39"><p>17:00</p></button>
+                        <button id="time40"><p>18:00</p></button>
+                        <button id="time41"><p>19:00</p></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

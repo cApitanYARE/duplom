@@ -1,0 +1,1544 @@
+body{
+    margin: 0 auto;
+}
+
+/*Head*/
+
+.full_wrapper{
+    max-width: 1602px;
+    height: 192px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.head_wrapper{
+    background-color: RGBA(34, 34, 34, 1);
+}
+
+.cyrcule{
+    padding: 34px 0 0 0px;
+    max-width: 63px;
+    max-height: 63px;
+}          
+
+.tel{
+    max-width: 40px;
+    max-height:400px;
+}
+
+.head_info{
+    min-width: 1183px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 32px 0;
+}
+
+.head_name1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    
+}
+
+.head_name2{
+ font-size: 12px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: #8d8d8d;
+ font-weight: bold;
+}
+
+.head_name{
+    padding: 33px 0 0 12px;
+}
+
+.for_head_name{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.for_head_info{
+    font-size: 13px;
+    color: #8d8d8d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 0 0 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.head_info{
+    display: flex;
+}
+
+.path1{
+    color: #EF5050;
+}
+
+.path2{
+    color: white;
+}
+
+.head_main_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0 0 120px;
+    min-width: 653px;
+}
+
+
+
+.relative{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.head_social_border{
+    border: solid white 1px;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.social_icont{
+    width: 20px;
+}
+
+.head_social_size{
+    width: 42px;
+    height: 42px;
+}
+
+.head_social_border:hover{
+    background-color: #EF5050;
+    border-radius: 50%;
+    border-color: #EF5050;
+}
+
+.head_social{
+    min-width: 200px;
+    display: flex;
+    padding: 37px 0px 0 37px;
+    justify-content: space-between;
+}
+
+.head_social1{
+    min-width: 200px;
+    display: flex;
+    padding: 37px 0px 0 0px;
+    justify-content: space-evenly;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    min-width: 1183px;
+}
+
+.head_menu_point{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px;
+    
+}
+
+.head_menu_point_start{
+    background-color: RGBA(239, 80, 80, 1);
+    padding: 30px 30px 30px 30px;
+}
+
+.head_menu_point_end{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px 30px 30px 30px;
+}
+
+.head_menu_point_tg{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px 40px 30px 30px;
+    position: relative;
+}
+
+.head_menu_point_tg::before{
+    content: '';
+    padding: 0 0 0 26px;
+    background-image: url(/photo/tg.png);
+    background-repeat: no-repeat;
+}
+
+.head_menu_point_start:hover {
+
+}
+.head_menu_point:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_end:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_tg:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_tg:hover{
+    background-color: RGBA(239, 80, 80, 1);
+}
+
+.head_phoneNumber{
+    display: flex;
+}
+
+.head_phoneNumber_icon{
+    padding: 3px 15px 0 0;
+}
+
+/*main_photo*/
+
+.main_photo{
+    max-width: 1602px;
+    height: 330px;
+    background-image: url(/photo/bd/18_1.png);
+    position: relative;
+}
+
+.main_photo_text{
+    font-size: 47px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*about_us_info*/
+
+.about_us_info{
+    margin: 75px 0 0px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_us_info_head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    max-width: 620px;
+    margin: 0 0 25px 0;
+}
+.about_us_info_Subhead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #EF5050;
+    max-width: 620px;
+    margin: 0 0 20px 0;
+}
+.about_us_info_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #8B8B8B;
+    max-width: 620px;
+    margin: 0 0 20px 0;
+}
+.about_us_info_list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 620px;
+}
+
+.about_us_info_main{
+    
+}
+
+.about_us_info_list{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #1D1B17;
+    font-size: 15px;
+}
+
+.about_us_info_list_first p {
+    margin: 20px 0 20px 0;
+}
+
+.about_us_info_list_first p:before {
+    content: url(/photo/mark.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.about_us_info_list_two p {
+    margin: 20px 0 20px 100px;
+
+}
+
+.about_us_info_list_two p:before {
+    content: url(/photo/mark.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.client_love_us{
+    margin: 120px 0 0 0;
+}
+
+.client_love_us_wrapp{
+
+}
+
+.client_love_us_name{
+    text-align: center;
+text-transform: uppercase;
+color: #333333;
+font-size: 30px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.client_love_us_name_name_sub{
+    padding: 36px 0 0 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 700px;
+    text-align: center;
+
+}
+
+.client_love_us_name_name_sub_wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.client_love_us_icon_wrapp{
+padding: 60px 0 0 0;
+
+display: flex;
+justify-content: center;
+}
+
+.client_love_us_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.client_love_us_mess{
+padding: 60px 0 0 0;
+width: 1020px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+
+.client_love_us_mess_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.client_love_us_name_pep{
+padding: 60px 0 0 0;
+text-align: center;
+}
+
+.our_expert_team_wrapp{
+    max-width: 1200px;
+    margin: 164px;
+   
+}
+
+.our_expert_team_name{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 0 0 32px 0;
+}
+
+.our_expert_team_subtext{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 700px;
+    display: flex;
+
+}
+
+.our_expert_team_workers_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_expert_team_workers_info_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 12px 0;
+}
+
+.our_expert_team_workers_info_subtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin: 0 0 37px 0;
+}
+
+.our_expert_team_subtext_wrapp{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 82px 0;
+}
+
+.our_expert_team_workers_info_photo{
+    margin: 0 0 20px 0;
+}
+
+.our_expert_team_workers_info_share{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_expert_team_workers_info_wrapp{
+
+}
+
+.promo_package{
+    background-image: url(/photo/1600x200.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin: 60px 0 0 0;
+}
+
+.promo_package_bold{
+    font-size: 40px;
+}
+
+.promo_package_unbold{
+    font-size: 20px;
+}
+
+.promo_package_text{
+    display: flex;
+    justify-content: start;
+    margin: 0 0 18px 0;
+}
+
+.promo_package_subtext{
+    width: 700px;
+}
+
+.promo_package_button{
+    padding: 57px 0 0 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #EF5050;
+    max-width: 180px;
+    max-height: 50px;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    margin: 76px 0 0 0;
+}
+
+.promo_package_wrapp{
+    margin: 57px 0 0 0;
+}
+
+.sponsors{
+    height: 123px;
+    max-width: 1600px;
+    background-color: #EF5050;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors_walpp{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.end{
+    height: 390px;
+    background-color: #1D1D1D;
+}
+
+.head_img_name{
+    display: flex;
+    padding: 50px 0 0 0;
+}
+
+.head_img_name_subtext{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 270px;
+    line-height:22px;
+    margin: 32px 0 0 0;
+    font-size: 13px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+   max-width: 1600px;
+}
+
+.end_wrapp{
+    width: 1200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.end_quick_link{
+    width: 110px;
+    margin: 75px 0 0 0;
+}
+
+.end_quick_link_name{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.end_quick_link_s{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    line-height:35px;
+}
+
+.end_gell_sub{
+    margin: 72px 0 0px 0;
+}
+
+.end_gallery_name{
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.end_gallery{
+    margin: 25px 0 0px 0;
+}
+
+.end_subcribe_name{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.end_subcribe_sub{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.end_subcribe_input{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9e9d9d;
+    width: 250px;
+    padding: 15px;
+    
+}
+
+.end_subcribe_input_button{
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EF5050;
+    padding: 15px;
+}
+
+.end_subcribe_input_wrapp{
+    display: flex;
+    margin-top: 40px;
+}
+
+.end_subcribe_input_button:hover{
+    background-color: white;
+    color: #EF5050;
+}
+
+
+
+
+.introduce_car{
+    margin: 105px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.introduce_car_name{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.introduce_car_text{
+    min-width: 736px;
+    min-height: 68px;
+    color: #646464;
+    font-size: 15px;
+    margin: 27px 0 0 0;
+    line-height: 25px;
+}
+
+.introduce_car_info{
+    margin:  0 0 0 60px;
+}
+
+.introduce_car_point{
+margin: 48px 0 0 0;
+
+}
+
+.introduce_car_one_icon{
+
+}
+
+.introduce_car_one_photo{
+  
+}
+
+
+.introduce_car_one_icon_border{
+    border:#dadada solid 2px;
+    padding: 8px 10px 8px 10px;
+    max-height: 55px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.introduce_car_one_icon_border:hover{
+    background-color: #EF5050;
+    border-color: #EF5050;
+}
+
+.introduce_car_one_icon_border_rock{
+    border:#dadada solid 2px;
+    padding: 8px 10px 5px 10px;
+    max-height: 50px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.introduce_car_one_icon_border_rock:hover{
+    background-color: #EF5050;
+    border-color: #EF5050;
+}
+
+.introduce_car_one_name{
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introduce_car_one_text{
+max-width: 247px;
+color: #8B8B8B;
+margin: 20px 0 0 0;
+line-height: 25px;
+}
+
+.introduce_car_one_more{
+margin: 10px 0 0 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introduce_car_one_more:hover{
+color: #EF5050;
+}
+
+
+.introduce_car_one_all{
+}
+
+.introduce_car_one_info{
+    margin: 0 0 0 20px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/*Head*/
+
+.full_wrapper{
+    max-width: 1602px;
+    height: 192px;
+    margin: 0 auto;
+}
+
+button{
+    color: white;
+    background-color: #EF5050;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: #EF5050 solid 3px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #EF5050;
+    border: #EF5050 solid 3px;
+}
+
+
+.head_wrapper{
+    background-color: RGBA(34, 34, 34, 1);
+}
+
+.cyrcule{
+    padding: 34px 0 0 0px;
+    max-width: 63px;
+    max-height: 63px;
+}          
+
+.tel{
+    max-width: 40px;
+    max-height:400px;
+}
+
+.head_info{
+    min-width: 1183px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 32px 0;
+}
+
+.head_name1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    
+}
+
+.head_name2{
+ font-size: 12px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: #8d8d8d;
+ font-weight: bold;
+}
+
+.head_name{
+    padding: 33px 0 0 12px;
+}
+
+.for_head_name{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.for_head_info{
+    font-size: 13px;
+    color: #8d8d8d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 0 0 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.head_info{
+    display: flex;
+}
+
+.path1{
+    color: #EF5050;
+}
+
+.path2{
+    color: white;
+}
+
+.head_main_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0 0 120px;
+    min-width: 653px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.relative{
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.head_social_border{
+    border: solid white 1px;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.social_icont{
+    width: 20px;
+}
+
+.head_social_size{
+    width: 42px;
+    height: 42px;
+}
+
+.head_social_border:hover{
+    background-color: #EF5050;
+    border-radius: 50%;
+    border-color: #EF5050;
+}
+
+.head_social{
+    min-width: 200px;
+    display: flex;
+    padding: 37px 0px 0 37px;
+    justify-content: space-between;
+}
+
+.head_social1{
+    min-width: 200px;
+    display: flex;
+    padding: 37px 0px 0 0px;
+    justify-content: space-evenly;
+}
+
+.head_menu{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    min-width: 1183px;
+}
+
+.head_menu_point{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px;
+    
+}
+
+.head_menu_point_start{
+    background-color: RGBA(239, 80, 80, 1);
+    padding: 30px 30px 30px 30px;
+}
+
+.head_menu_point_end{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px 30px 30px 30px;
+}
+
+.head_menu_point_tg{
+    background-color: RGBA(249, 91, 91, 1);
+    padding: 30px 40px 30px 30px;
+    position: relative;
+}
+
+.head_menu_point_tg::before{
+    content: '';
+    padding: 0 0 0 26px;
+    background-image: url(/photo/tg.png);
+    background-repeat: no-repeat;
+}
+
+.head_menu_point_start:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_end:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_tg:hover {
+    background-color: RGBA(239, 80, 80, 1);
+}
+.head_menu_point_tg:hover{
+    background-color: RGBA(239, 80, 80, 1);
+}
+
+.head_phoneNumber{
+    display: flex;
+}
+
+.head_phoneNumber_icon{
+    padding: 3px 15px 0 0;
+}
+
+/*main photo*/
+
+
+
+.main_photo_text{
+    font-size: 47px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/*introduce_car*/
+
+.introduce_car_wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.introduce_car{
+    margin: 105px;
+    display: flex;
+    width: 1183px;
+    
+}
+
+.introduce_car_name{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.introduce_car_text{
+    min-width: 736px;
+    min-height: 68px;
+    color: #646464;
+    font-size: 15px;
+    margin: 27px 0 0 0;
+    line-height: 25px;
+}
+
+.introduce_car_info{
+    margin:  0 0 0 60px;
+}
+
+.introduce_car_point{
+margin: 48px 0 0 0;
+
+}
+
+.introduce_car_photo{
+    max-width: 380px;
+    max-height: 550px;
+    background-color: url(/photo/bd/10.jpg);
+}
+
+.introduce_car_one_icon{
+
+}
+
+.introduce_car_one_photo{
+  
+}
+
+
+.introduce_car_one_icon_border{
+    border:#dadada solid 2px;
+    padding: 8px 10px 8px 10px;
+    max-height: 55px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.introduce_car_one_icon_border:hover{
+    background-color: #EF5050;
+    border-color: #EF5050;
+}
+
+.introduce_car_one_icon_border_rock{
+    border:#dadada solid 2px;
+    padding: 8px 10px 5px 10px;
+    max-height: 50px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.introduce_car_one_icon_border_rock:hover{
+    background-color: #EF5050;
+    border-color: #EF5050;
+}
+
+.introduce_car_one_name{
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introduce_car_one_text{
+max-width: 247px;
+color: #8B8B8B;
+margin: 20px 0 0 0;
+line-height: 25px;
+}
+
+.introduce_car_one_more{
+margin: 10px 0 0 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introduce_car_one_more:hover{
+color: #EF5050;
+}
+
+.introduce_car_point_top{
+    display: flex;
+}
+
+.introduce_car_point_bottom{
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.introduce_car_one_all{
+display: flex;
+}
+
+.introduce_car_one_info{
+    margin: 0 0 0 20px;
+}
+
+
+/*our_service*/
+
+.our_service{
+    margin: 135px 0 0 0;
+    text-align: center;
+}
+
+.our_service_name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.our_service_text{
+    font-size: 15px;
+    max-width: 707px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 44px 0 0 0;
+}
+
+.our_service_text_wrapp{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.our_service_window_wrapp{
+    margin: 65px 0 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.our_service_window{
+ display: flex;
+ justify-content: space-between;
+ width: 1183px;
+ height: 320px;
+}
+
+.our_service_window_one{
+    height: 320px;
+}
+
+.service_butt{
+    display: inline-block;
+    justify-content: center;
+    margin-top:52px;
+    padding: 15px 25px 15px 25px;
+    border: solid #EF5050;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.service_butt:hover{
+    color: white;
+    background-color: #EF5050;
+}
+
+
+
+.work_gallery{
+    background-color: #616161;
+    margin-top: 100px;
+
+}
+
+.work_gallery_name{
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.work_gallery_text_wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.work_gallery_text{
+    padding-top: 36px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #B1B1B1;
+    max-width: 707px;
+    
+}
+
+.work_gallery_n_b{
+    padding-top: 32px;
+}
+.work_gallery_photo{
+    padding-top: 42px;
+}
+
+.work_gallery_n_b_photo{
+    border: white solid 1px;
+    max-width: 20px;
+    padding: 5px;
+}
+
+.work_gallery_n_b_photo:hover{
+    background-color: #EF5050;
+    border: #EF5050 solid 1px;
+    transition: background-color 0.5s ease;
+    transition: border-color 0.1s ease;
+}
+
+.work_gallery_n_b_wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.work_gallery_photo{
+    display: flex;
+    justify-content: center;
+    padding-bottom:142px; 
+}
+
+
+.client_love_us{
+    margin: 120px 0 0 0;
+}
+
+.client_love_us_wrapp{
+
+}
+
+.client_love_us_name{
+    text-align: center;
+text-transform: uppercase;
+color: #333333;
+font-size: 30px;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.client_love_us_name_name_sub{
+    padding: 36px 0 0 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 700px;
+    text-align: center;
+
+}
+
+.client_love_us_name_name_sub_wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.client_love_us_icon_wrapp{
+padding: 60px 0 0 0;
+
+display: flex;
+justify-content: center;
+}
+
+.client_love_us_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.client_love_us_mess{
+padding: 60px 0 0 0;
+width: 1020px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+
+.client_love_us_mess_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.client_love_us_name_pep{
+padding: 60px 0 0 0;
+text-align: center;
+}
+
+.our_expert_team_wrapp{
+    max-width: 1200px;
+    margin: 164px;
+   
+}
+
+.our_expert_team_name{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 0 0 32px 0;
+}
+
+.our_expert_team_subtext{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 700px;
+    display: flex;
+
+}
+
+.our_expert_team_workers_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_expert_team_workers_info_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 12px 0;
+}
+
+.our_expert_team_workers_info_subtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin: 0 0 37px 0;
+}
+
+.our_expert_team_subtext_wrapp{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 82px 0;
+}
+
+.our_expert_team_workers_info_photo{
+    margin: 0 0 20px 0;
+}
+
+.our_expert_team_workers_info_share{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_expert_team_workers_info_wrapp{
+
+}
+
+.promo_package{
+    background-image: url(/photo/1600x200.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.promo_package_bold{
+    font-size: 40px;
+}
+
+.promo_package_unbold{
+    font-size: 20px;
+}
+
+.promo_package_text{
+    display: flex;
+    justify-content: start;
+    margin: 0 0 18px 0;
+}
+
+.promo_package_subtext{
+    width: 700px;
+}
+
+.promo_package_button{
+    padding: 57px 0 0 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #EF5050;
+    max-width: 180px;
+    max-height: 50px;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    margin: 76px 0 0 0;
+}
+
+.promo_package_wrapp{
+    margin: 57px 0 0 0;
+}
+
+.sponsors{
+    height: 123px;
+    max-width: 1600px;
+    background-color: #EF5050;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors_walpp{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.end{
+    height: 390px;
+    background-color: #1D1D1D;
+}
+
+.head_img_name{
+    display: flex;
+    padding: 50px 0 0 0;
+}
+
+.head_img_name_subtext{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 270px;
+    line-height:22px;
+    margin: 32px 0 0 0;
+    font-size: 13px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+   max-width: 1600px;
+}
+
+.end_wrapp{
+    width: 1200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.head_wrapp{
+
+}
+
+.end_quick_link{
+    width: 110px;
+    margin: 75px 0 0 0;
+}
+
+.end_quick_link_name{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.end_quick_link_s{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    line-height:35px;
+}
+
+.end_gell_sub{
+    margin: 72px 0 0px 0;
+}
+
+.end_gallery_name{
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.end_gallery{
+    margin: 25px 0 0px 0;
+}
+
+.end_subcribe_name{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.end_subcribe_sub{
+    color: #9e9d9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.end_subcribe_input{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9e9d9d;
+    width: 250px;
+    padding: 15px;
+    
+}
+
+.end_subcribe_input_button{
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EF5050;
+    padding: 15px;
+}
+
+.end_subcribe_input_wrapp{
+    display: flex;
+    margin-top: 40px;
+}
+
+.end_subcribe_input_button:hover{
+    background-color: white;
+    color: #EF5050;
+}
+
+
+.for_user{
+background-color: #222222;
+//position: fixed;
+}
+
+
+.for_user_body{
+    width: 100%;    
+    min-width: 1505px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 0 0px;
+}
+
+.for_user_butts{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.button_res{
+    padding: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EF5050;
+    border: #EF5050 3px solid;
+    border-radius: 7px;
+}
+
+.for_user_butt1{
+    padding-left: 30px;
+    min-width: 170px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+}
+
+.for_user_butt2{
+
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+.for_user_name{
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    display: flex; 
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 50px;
+}
+
+
+.user_info{
+    margin: 20px 25px 0 25px;
+    display: flex;
+    justify-content: start;
+}
+
+.for_user_butt2 :hover{
+    background-color: #222222;
+    border: white 3px solid;
+}
+
+.for_user_butt1 :hover{
+    background-color: #222222;
+    border: white 3px solid;
+}
+
