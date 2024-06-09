@@ -7,7 +7,7 @@ const cors = require('cors');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = process.env.PORT || 5501;
+const PORT = process.env.PORT || 10000;
 
 // Підключення до локальної бази даних MongoDB для "authorizations"
 mongoose.connect("mongodb+srv://absoluterepaircar:cXP436QyuuJJXUaX@authorizations.gxre9d4.mongodb.net/?retryWrites=true&w=majority&appName=authorizations", { useNewUrlParser: true, useUnifiedTopology: true })
