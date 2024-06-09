@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5501;
 
 // Підключення до локальної бази даних MongoDB для "authorizations"
-mongoose.connect("mongodb://localhost:27017/authorizations", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://absoluterepaircar:cXP436QyuuJJXUaX@authorizations.gxre9d4.mongodb.net/?retryWrites=true&w=majority&appName=authorizations", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("Підключено до MongoDB для authorizations"))
     .catch(err => console.error("Помилка підключення до MongoDB для authorizations:", err));
 
