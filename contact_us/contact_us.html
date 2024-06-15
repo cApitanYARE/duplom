@@ -6,7 +6,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact_us.css">
-    <title>contact_us</title>
+    <link rel="icon" href="/photo/transport.png" type="image/png">
+    <title>Автомайстерня Absolute</title>
 </head>
 <body>
     <div class="full_wrapper">
@@ -25,7 +26,7 @@
                         <a href="/bd/login/login.html" class="logIn button_res" id="loginButton">Увійти</a>
                         <a href="/bd/signin/signin.html" class="signIn button_res" id="signinButton">Реєстрація</a>
                         <a href="/bd/editing/index.html" class="button_res" id="editButton" hidden>Редагування</a>
-                        <a href="/index.html" class="logout button_res" id="logoutButton" style="display:none;">Log Out</a>
+                        <a href="/index.html" class="logout button_res" id="logoutButton" style="display:none;">Вийти</a>
                     </div>
                 
             </div>
@@ -80,11 +81,11 @@
         
             </div>
             <div class="head_menu">
-                <div id="homeLink" class="head_menu_point_start">Головна</div>
+                <div id="homeLink" class="head_menu_point">Головна</div>
                 <div id="aboutUsLink" class="head_menu_point">про нас</div>
                 <div id="serviceLink" class="head_menu_point">Сервіс</div>
                 <div id="galleryLink" class="head_menu_point">Галерея</div>
-                <div id="contactLink" class="head_menu_point_end">зв'язатися з нами</div>
+                <div id="contactLink" class="head_menu_point_start">зв'язатися з нами</div>
             </div>
         </div>
 
@@ -130,7 +131,7 @@
                 </div>        
         </div>
             <div class="contact_us_info_photo">
-                <img src="/photo/650x400.png" alt="">
+                <img src="/contact_us/photo/1.jpg" alt="">
             </div>
         </div>
 
@@ -159,29 +160,7 @@
             </p>
                     </div>
     
-                    <div class="head_social1">
-    
-                        <div class="head_social_first head_social_size">
-                        <!--<img src="/photo/Ellipse 3 copy.png" alt="">!-->
-                        <img src="/photo/facebook.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_second  head_social_size">
-                        
-                        <img src="/photo/twitter.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_third head_social_size">
-                        
-                        <img src="/photo/googleplus.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_forth head_social_size">
-                        
-                        <img src="/photo/pinterest.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                    </div>
+             
                 </div>
     
                 <div class="end_quick_link">
@@ -190,10 +169,10 @@
                             Швидкі посилання
                         </div>
                         <div class="end_quick_link_s">
-                            <p>Про нас</p>
-                            <p>Зв'язатися з нами</p>
-                            <p>Обслуговування</p>
-                            <p>Галерея</p>
+                            <div id="homell">Головна</div> 
+                            <div id="aboutUsll">Про нас</div> 
+                            <div id="servicell">Сервіс</div>
+                            <div id="galleryll">Галерея</div>
                         </div>
                     </div>
                 </div>
@@ -278,6 +257,12 @@ aboutUsLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:550
 serviceLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/service/service.html'));
 galleryLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/gallery/gallery.html'));
 contactLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/contact_us/contact_us.html'));
+
+
+homell.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/index.html'));
+aboutUsll.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/about_us/aboutUs.html'));
+servicell.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/service/service.html'));
+galleryll.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/gallery/gallery.html'));
    </script>
 </body>
 </html>

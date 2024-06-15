@@ -120,6 +120,16 @@ p{
     width: 20px;
 }
 
+.gallery_main_image_one img{
+    max-width: 295px;
+    max-height: 350px;
+}
+
+.gallery_main_image_one_two img{
+    max-width: 295px;
+    max-height: 350px;
+}
+
 .head_social_size{
     width: 42px;
     height: 42px;
@@ -1112,12 +1122,12 @@ text-align: center;
 }
 
 .end_quick_link{
-    width: 110px;
+    width: 200px;
     margin: 75px 0 0 0;
 }
 
 .end_quick_link_name{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-bottom: 25px;
@@ -1126,7 +1136,7 @@ text-align: center;
 .end_quick_link_s{
     color: #9e9d9d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     line-height:35px;
 }
 

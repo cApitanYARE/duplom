@@ -8,7 +8,7 @@ document.getElementById('verificationForm').addEventListener('submit', function(
     const password = localStorage.getItem('userPassword');
     const verificationCode = document.getElementById('verificationCode').value;
 
-    fetch('http://localhost:5501/bd/verify', { // Використання порту 5500
+    fetch('http://localhost:10000/bd/verify', { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

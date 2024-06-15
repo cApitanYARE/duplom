@@ -47,10 +47,10 @@ function deleteBooking(bookingId) {
         if (response.ok) {
             document.querySelector(`button[data-id="${bookingId}"]`).parentElement.remove();
         } else {
-            console.error('Error deleting booking');
+            console.error('Помилка видалення бронювання');
         }
     })
     .catch(error => {
-        console.error('Error deleting booking:', error);
+        console.error('Помилка видалення бронювання:', error);
     });
 }

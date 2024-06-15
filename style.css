@@ -174,6 +174,10 @@ a{
     min-width: 1183px;
 }
 
+.head_menu div{
+    cursor: pointer;
+}
+
 .head_menu_point{
     background-color: RGBA(249, 91, 91, 1);
     padding: 30px;
@@ -415,8 +419,29 @@ display: flex;
  height: 320px;
 }
 
-.our_service_window_one{
-    height: 320px;
+.our_service_window_one img{
+    max-width: 280px;
+    max-height: 320px;
+}
+
+.our_service_window_two img{
+    max-width: 280px;
+    max-height: 320px;
+}
+
+.our_service_window_three img{
+    max-width: 280px;
+    max-height: 320px;
+}
+
+.our_service_window_four img{
+    max-width: 280px;
+    max-height: 320px;
+}
+
+.our_expert_team_workers_info_photo img{
+    max-width: 260px;
+    max-height: 250px;
 }
 
 .service_butt{
@@ -424,7 +449,7 @@ display: flex;
     justify-content: center;
     margin-top:52px;
     padding: 15px 25px 15px 25px;
-    border: solid #EF5050;
+    border: 3px solid #EF5050;
     font-size: 11px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -476,6 +501,25 @@ display: flex;
     padding-top: 42px;
 }
 
+.work_gallery_n_b div{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: white 1px solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.work_gallery_n_b div:hover{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: #EF5050 1px solid;
+    padding: 10px;
+    background-color: #EF5050;
+    cursor: pointer;
+}
+
 .work_gallery_n_b_photo{
     border: white solid 1px;
     max-width: 20px;
@@ -500,6 +544,11 @@ display: flex;
     padding-bottom:142px; 
 }
 
+.work_gallery_photo img{
+padding: 0 5px 0 5px;
+max-width: 295px;
+max-height: 350px;
+}
 
 .client_love_us{
     margin: 120px 0 0 0;
@@ -717,12 +766,12 @@ text-align: center;
 }
 
 .end_quick_link{
-    width: 110px;
+    width: 200px;
     margin: 75px 0 0 0;
 }
 
 .end_quick_link_name{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-bottom: 25px;
@@ -731,8 +780,12 @@ text-align: center;
 .end_quick_link_s{
     color: #9e9d9d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     line-height:35px;
+}
+
+.end_quick_link_s div{
+    cursor: pointer;
 }
 
 .end_gell_sub{

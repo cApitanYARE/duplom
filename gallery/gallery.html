@@ -5,7 +5,26 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gallery.css">
-    <title>gallery</title>
+    <link rel="icon" href="/photo/transport.png" type="image/png">
+    <title>Автомайстерня Absolute</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery a {
+            margin: 5px;
+        }
+        .gallery img {
+            max-width: 150px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <div class="full_wrapper">
@@ -25,7 +44,7 @@
                         <a href="/bd/login/login.html" class="logIn button_res" id="loginButton">Увійти</a>
                         <a href="/bd/signin/signin.html" class="signIn button_res" id="signinButton">Реєстрація</a>
                         <a href="/bd/editing/index.html" class="button_res" id="editButton" hidden>Редагування</a>
-                        <a href="/index.html" class="logout button_res" id="logoutButton" style="display:none;">Log Out</a>
+                        <a href="/index.html" class="logout button_res" id="logoutButton" style="display:none;">Вийти</a>
                     </div>
                 
             </div>
@@ -80,10 +99,10 @@
         
             </div>
             <div class="head_menu">
-                <div id="homeLink" class="head_menu_point_start">Головна</div>
+                <div id="homeLink" class="head_menu_point">Головна</div>
                 <div id="aboutUsLink" class="head_menu_point">про нас</div>
                 <div id="serviceLink" class="head_menu_point">Сервіс</div>
-                <div id="galleryLink" class="head_menu_point">Галерея</div>
+                <div id="galleryLink" class="head_menu_point_start">Галерея</div>
                 <div id="contactLink" class="head_menu_point_end">зв'язатися з нами</div>
             </div>
         </div>
@@ -102,17 +121,23 @@
       
 
             <div class="gallery_main_image">
-                <div class="gallery_main_image_one">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
+                <div class="gallery_main_image_one" >
+                    <a href="/photo/for_gallery/g1.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g1.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g2.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g2.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g3.jpg" data-lightbox="mygallery"></a><img src="/photo/for_gallery/g3.jpg" alt="">
+                    <a href="/photo/for_gallery/g4.jpg" data-lightbox="mygallery"></a><img src="/photo/for_gallery/g4.jpg" alt="">
+                </div>
+                <div class="gallery_main_image_one_two" >
+                    <a href="/photo/for_gallery/g5.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g5.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g6.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g6.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g7.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g7.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g8.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g8.jpg" alt=""></a>
                 </div>
                 <div class="gallery_main_image_one_two">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
-                    <img src="/photo/295x350.png" alt="">
+                    <a href="/photo/for_gallery/g9.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g9.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g10.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g10.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g11.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g11.jpg" alt=""></a>
+                    <a href="/photo/for_gallery/g12.jpg" data-lightbox="mygallery"><img src="/photo/for_gallery/g12.jpg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -144,29 +169,7 @@
             </p>
                     </div>
     
-                    <div class="head_social1">
-    
-                        <div class="head_social_first head_social_size">
-                        <!--<img src="/photo/Ellipse 3 copy.png" alt="">!-->
-                        <img src="/photo/facebook.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_second  head_social_size">
-                        
-                        <img src="/photo/twitter.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_third head_social_size">
-                        
-                        <img src="/photo/googleplus.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                        <div class="head_social_forth head_social_size">
-                        
-                        <img src="/photo/pinterest.png" alt="" class="head_social_border social_icont">
-                        </div>
-            
-                    </div>
+       
                 </div>
     
                 <div class="end_quick_link">
@@ -175,10 +178,10 @@
                             Швидкі посилання
                         </div>
                         <div class="end_quick_link_s">
-                            <p>Про нас</p>
-                            <p>Зв'язатися з нами</p>
-                            <p>Обслуговування</p>
-                            <p>Галерея</p>
+                        <div id="homell">Головна</div>
+                        <div id="aboutUsll">Про нас</div> 
+                        <div id="servicell">Сервіс</div>
+                        <div id="contact_usll">Зв'язатися з нами</div>
                         </div>
                     </div>
                 </div>
@@ -187,6 +190,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
     <script>
 
 // Функція для встановлення відображення кнопок входу/реєстрації
@@ -262,6 +266,12 @@ aboutUsLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:550
 serviceLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/service/service.html'));
 galleryLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/gallery/gallery.html'));
 contactLink.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/contact_us/contact_us.html'));
+
+
+homell.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/index.html'));
+aboutUsll.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/about_us/aboutUs.html'));
+servicell.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/service/service.html'));
+contact_usll.addEventListener('click', () => redirectToPage('http://127.0.0.1:5502/contact_us/contact_us.html'));
 
    </script>
 </body>

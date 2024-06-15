@@ -12,7 +12,7 @@ document.getElementById("closeButton3").addEventListener("click", function() {
                     clearAllBookings();
                 });
             } else {
-                console.error('Button with ID "clearAllBookings" not found');
+                console.error('Кнопка з ідентифікатором "clearAllBookings" не знайдена');
             }
         });
         
@@ -22,13 +22,13 @@ document.getElementById("closeButton3").addEventListener("click", function() {
             })
             .then(response => {
                 if (response.ok) {
-                    alert('All bookings have been successfully deleted');
+                    alert('Усі бронювання успішно видалено');
                 } else {
-                    console.error('Error deleting all bookings');
+                    console.error('Помилка видалення всіх бронювань');
                 }
             })
             .catch(error => {
-                console.error('Error deleting all bookings:', error);
+                console.error('Помилка видалення всіх бронювань:', error);
             });
         }
         

@@ -14,7 +14,7 @@ function updateLocalStorage() {
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const response = await fetch('http://localhost:5501/bookings');
+        const response = await fetch('http://localhost:10000/bookings');
         const bookings = await response.json();
         
         // Оновлення LocalStorage з даними користувача та id заброньованих слотів
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return;
                 }
         
-                const response = await fetch(`http://localhost:5501/bd/ticket/${day.toLowerCase()}`, {
+                const response = await fetch(`http://localhost:10000/bd/ticket/${day.toLowerCase()}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 alert(data.message);
         
                 // Якщо бронювання пройшло успішно, додати деталі бронювання до LocalStorage та додати клас booked до кнопки
-                if (data.message === 'Slot booked successfully') {
+                if (data.message === 'Талон успішно заброньовано') {
                     bookingEmail.push(userEmail);
                     bookingIds.push(buttonId);
                     localStorage.setItem('bookingEmail', JSON.stringify(bookingEmail));
@@ -76,11 +76,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     button.classList.add('booked');
                     updateLocalStorage(); // Оновлення LocalStorage з даними користувача та id заброньованих слотів
                 }
+                location.reload();
             });
         });
         
     } catch (error) {
-        console.error('Error occurred while fetching bookings:', error);
+        console.error('Під час отримання бронювань сталася помилка:', error);
     }
 });
 

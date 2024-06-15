@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const userEmail = localStorage.getItem('userEmail'); // Отримання email з LocalStorage
 
         // Запит на сервер для отримання даних
-        const response = await fetch(`http://localhost:5501/bookings?user=${userEmail}`);
+        const response = await fetch(`http://localhost:10000/bookings?user=${userEmail}`);
         const booking = await response.json();
 
         // Вставка значень day та time в HTML
@@ -41,48 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Помилка при отриманні деталей бронювання:', error);
     }
 });
-/*
-// Функція для видалення елементів зі списку за індексом
-function removeItemByIndex(arr, index) {
-    if (index > -1) {
-        arr.splice(index, 1);
-    }
-}
-
-// Обробник кліків на кнопку "Cancel ticket"
-document.getElementById('clearTicketsBtn').addEventListener('click', function() {
-    // Отримання поточного користувача
-    const userEmail = localStorage.getItem('userEmail');
-
-    // Перевірка наявності користувача
-    if (userEmail) {
-        // Отримання bookingEmail та bookingIds з localStorage
-        let bookingEmails = JSON.parse(localStorage.getItem('bookingEmail')) || [];
-        let bookingIds = JSON.parse(localStorage.getItem('bookingIds')) || [];
-
-        // Визначення, яка за рахунком це бронювання для поточного користувача
-        let bookingCounter = 0;
-        for (const email of bookingEmails) {
-            if (email !== userEmail) {
-                bookingCounter++;
-            }
-        }
-
-        // Видалення елементів зі списку bookingEmail та bookingIds за індексом bookingCounter
-        removeItemByIndex(bookingEmails, bookingCounter );
-        removeItemByIndex(bookingIds, bookingCounter );
-
-        // Оновлення localStorage з оновленими списками
-        localStorage.setItem('bookingEmail', JSON.stringify(bookingEmails));
-        localStorage.setItem('bookingIds', JSON.stringify(bookingIds));
-
-        console.log('Бронювання користувача успішно видалено з localStorage.');
-        // Оповіщення або подальші дії...
-    } else {
-        console.log('Не вдалося отримати email користувача з localStorage.');
-        // Повідомлення про помилку або подальші дії...
-    }
-});*/
 
 // Функція для видалення елементів зі списку за індексом
 function removeItemByIndex(arr, index) {
@@ -119,7 +77,7 @@ function clearUserBookingsFromLocalStorage(userEmail) {
 async function clearUserBookingsFromDB(userEmail) {
     try {
         // Запит на сервер для видалення бронювань
-        const response = await fetch(`http://localhost:5501/bookings`, {
+        const response = await fetch(`http://localhost:10000/bookings`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
@@ -152,6 +110,7 @@ document.querySelector('.your_button_talon button').addEventListener('click', as
 
         console.log('Бронювання користувача успішно видалено.');
         // Оповіщення або подальші дії...
+        location.reload();
     } else {
         console.log('Не вдалося отримати email користувача з localStorage.');
         // Повідомлення про помилку або подальші дії...

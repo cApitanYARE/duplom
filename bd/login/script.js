@@ -6,7 +6,7 @@ function isValid(input) {
     // Додайте вашу іншу логіку валідації тут
     return true; // Наприклад, перевірка на те, чи введення не є порожнім
 }
-// log in
+
 {
 
     
@@ -39,16 +39,12 @@ function isValid(input) {
     
     }
 
-
-    ///////////////bd
-
-
     document.getElementById("loginForm").addEventListener("submit", function(event) {
     
         const email = document.getElementById("loginEmail").value;
         const password = document.getElementById("loginPassword").value;
     
-        fetch("http://localhost:5501/bd/login", {
+        fetch("http://localhost:10000/bd/login", {
             method: "POST",
             body: JSON.stringify({ email, password }),
             headers: {
