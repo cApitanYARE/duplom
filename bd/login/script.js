@@ -44,7 +44,7 @@ function isValid(input) {
         const email = document.getElementById("loginEmail").value;
         const password = document.getElementById("loginPassword").value;
     
-        fetch("http://localhost:10000/bd/login", {
+        fetch("https://carrepairabsolute.onrender.com/bd/login", {
             method: "POST",
             body: JSON.stringify({ email, password }),
             headers: {

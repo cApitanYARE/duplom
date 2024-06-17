@@ -51,7 +51,7 @@ window.onload = function() {
         localStorage.setItem('userPassword', password);
 
         // Відправити дані на сервер (наприклад, з використанням AJAX або Fetch API)
-        fetch("http://localhost:10000/bd/signin", {
+        fetch("https://carrepairabsolute.onrender.com/bd/signin", {
             method: "POST",
             body: JSON.stringify({ email, password }),
             headers: {

@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const userEmail = localStorage.getItem('userEmail'); // Отримання email з LocalStorage
 
         // Запит на сервер для отримання даних
-        const response = await fetch(`http://localhost:10000/bookings?user=${userEmail}`);
+        const response = await fetch(`/bookings?user=${userEmail}`);
         const booking = await response.json();
 
         // Вставка значень day та time в HTML
@@ -77,7 +77,7 @@ function clearUserBookingsFromLocalStorage(userEmail) {
 async function clearUserBookingsFromDB(userEmail) {
     try {
         // Запит на сервер для видалення бронювань
-        const response = await fetch(`http://localhost:10000/bookings`, {
+        const response = await fetch(`https://carrepairabsolute.onrender.com/bookings`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
