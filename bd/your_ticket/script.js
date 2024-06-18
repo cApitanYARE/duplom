@@ -77,7 +77,7 @@ function clearUserBookingsFromLocalStorage(userEmail) {
 async function clearUserBookingsFromDB(userEmail) {
     try {
         // Запит на сервер для видалення бронювань
-        const response = await fetch(`https://carrepairabsolute.onrender.com/bookings`, {
+        const response = await fetch(`/bookings`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',

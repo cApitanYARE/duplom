@@ -8,7 +8,7 @@ document.getElementById('verificationForm').addEventListener('submit', function(
     const password = localStorage.getItem('userPassword');
     const verificationCode = document.getElementById('verificationCode').value;
 
-    fetch('https://carrepairabsolute.onrender.com/bd/verify', { 
+    fetch('/bd/verify', { 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
