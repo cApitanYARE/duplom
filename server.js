@@ -7,7 +7,7 @@ const cors = require('cors');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = process.env.PORT || 10000;
+const PORT = 10000;
 
 // Підключення до локальної бази даних MongoDB для "authorizations"
 mongoose.connect("mongodb+srv://absoluterepaircar:cXP436QyuuJJXUaX@authorizations.gxre9d4.mongodb.net/?retryWrites=true&w=majority&appName=authorizations", { useNewUrlParser: true, useUnifiedTopology: true })
@@ -25,10 +25,9 @@ const userSchema = new mongoose.Schema({
 // Створення моделі користувача для "authorizations"
 const User = mongoose.model("User", userSchema);
 
+app.use(cors());
 app.use(bodyParser.json());
-app.use(cors({
-    origin: '*'
-}));
+
 
 // Створення адміністратора при запуску сервера
 async function createAdmin() {
@@ -181,9 +180,10 @@ const bookingSchema = new mongoose.Schema({
 // Створення моделі бронювань для "bookingDB"
 const Booking = mongoose.model('Booking', bookingSchema);
 
+app.use(cors());
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+
 
 // Налаштування Nodemailer
 const transporter = nodemailer.createTransport({
@@ -489,6 +489,6 @@ app.delete('/bookings', async (req, res) => {
 
 
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0' ,() => {
     console.log(`Сервер працює на http://localhost:${PORT}`);
 });
